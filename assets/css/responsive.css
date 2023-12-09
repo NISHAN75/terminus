@@ -1,0 +1,652 @@
+
+@media (min-width: 1430px) {
+	.custom-header {
+		background-color: transparent;
+	}
+
+	.custom-header .vertical-bars {
+		display: none;
+	}
+
+	.custom-header.active .logo {
+		border: 1px solid;
+		border-radius: 50%;
+		height: 40px;
+		width: 40px;
+		-webkit-transform: translateX(-55px);
+		-ms-transform: translateX(-55px);
+		transform: translateX(-55px);
+		-webkit-transition-property: -webkit-transform;
+		transition-property: -webkit-transform;
+		-o-transition-property: transform;
+		transition-property: transform, -webkit-transform;
+		-webkit-transition-duration: 0.45s;
+		-o-transition-duration: 0.45s;
+		transition-duration: 0.45s;
+		display: block;
+	}
+
+	.custom-header.active .logo svg:first-child {
+		width: 160px;
+		max-width: 160px;
+		margin-left: 9px;
+		margin-top: 6px;
+	}
+
+	.custom-header.active .logo svg path:not(:nth-child(3)) {
+		display: none;
+	}
+
+	.custom-header.active .custom-header__toggle-btn span {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 1199.98px) and (min-width: 992px) {
+	.welcome .box {
+		padding-left: 25px;
+	}
+}
+
+@media (max-width: 1399.98px) {
+	.custom-header__toggle-btn span {
+		-webkit-transform: translateX(-20px) translateY(3px);
+		-ms-transform: translateX(-20px) translateY(3px);
+		transform: translateX(-20px) translateY(3px);
+	}
+
+	.custom-header__toggle-btn {
+		-webkit-transform: translateX(-36px);
+		-ms-transform: translateX(-36px);
+		transform: translateX(-36px);
+	}
+
+	.testimonials .row {
+		--bs-gutter-x: 40px;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.title-xl {
+		font-size: 55px;
+	}
+
+	.title-lg {
+		font-size: 47px;
+	}
+
+	.clients {
+		padding-bottom: 100px;
+	}
+
+	.roofing-services {
+		padding-bottom: 100px;
+	}
+
+	.testimonials .box-2 {
+		min-height: 550px;
+	}
+
+	.testimonial__content svg:first-child {
+		width: 42px;
+		margin-bottom: 10px;
+		margin-left: -18px;
+	}
+
+	.featured-projects {
+		padding-bottom: 100px;
+	}
+
+	.featured-projects .box {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 15px;
+		max-width: 100%;
+	}
+
+	.roofing-systems {
+		margin-top: 100px;
+	}
+
+	.extensive-warranty {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.commercial-inspection .title-xxl {
+		font-size: 70px;
+	}
+
+	.commercial-inspection .container {
+		min-height: 650px;
+	}
+
+	.commercial-inspection .chat-img-wrapper {
+		width: 145px;
+		height: 145px;
+		position: absolute !important;
+		right: 20px;
+	}
+
+	.commercial-inspection .chat-img-wrapper>svg {
+		width: 65px;
+		margin-top: 60px;
+	}
+
+	.commercial-inspection .title-xl {
+		max-width: 400px;
+		margin-right: 80px;
+		font-size: 45px;
+	}
+
+	.commercial-inspection .box {
+		margin-right: auto;
+		margin-left: -50px;
+	}
+
+}
+
+@media (max-width: 991.98px) {
+	.loading>img {
+		max-width: 68%;
+	}
+
+
+	.modal-contact .title-xl {
+		font-size: 47px;
+	}
+
+	.offcanvas-nav>li>a {
+		font-size: 28px;
+		padding: 14px 0;
+	}
+
+	.offcanvas-nav ul a {
+		font-size: 18px;
+		padding: 7.2px 0;
+	}
+
+	.title-xl {
+		font-size: 52px;
+	}
+
+	.title-lg {
+		font-size: 46px;
+	}
+	.title-md{
+		font-size: 36px;
+	}
+
+	.button,
+	.featured-projects .owl-theme .owl-nav button,
+	.button-2 {
+		font-size: 15px;
+		padding: 10px 23px;
+		padding-top: 12px;
+	}
+
+	.welcome {
+		padding-top: 70px;
+	}
+
+	.welcome .box {
+		margin-top: 25px;
+	}
+
+	.clients {
+		padding-bottom: 80px;
+	}
+
+	.conversation  {
+		margin-bottom: -120px;
+	}
+	.conversation-bg {
+		height: calc(100% - 120px);
+	}
+	.clients-content {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.testimonials {
+		padding-bottom: 100px;
+	}
+
+	.testimonials .box-2 {
+		min-height: 450px;
+	}
+
+	.featured-projects {
+		padding-top: 85px;
+	}
+
+	.conversation {
+		padding-top: 110px;
+	}
+
+	.roofing-services {
+		padding-top: 215px;
+		padding-bottom: 90px;
+	}
+
+	.roofing-services .row>*:not(:last-child) {
+		margin-bottom: 35px;
+	}
+
+	.roofing-services .box {
+		max-width: 328px;
+		margin-top: 20px;
+	}
+
+	.roofing-systems {
+		margin-top: 80px;
+	}
+
+	.extensive-warranty {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+
+	.title-xxl {
+		font-size: 60px;
+	}
+
+	.commercial-inspection .box {
+		margin-left: 0;
+		margin-top: 30px;
+	}
+
+	.commercial-inspection .container {
+		min-height: 600px;
+	}
+	/* nishan */
+	.quote-icon {
+		position: absolute;
+		left: 0;
+		height: 69px;
+		width: 56px;
+		top: -69px;
+	}
+	.property-managers .box-tpb {
+		padding-left: 0;
+	}
+	.table-search-bar {
+		margin-top: 20px;
+	}
+	.warranty__img {
+		margin-top: 35px;
+	}
+	
+}
+
+@media (max-width: 767.98px) {
+	body.page-hub .container>.title-xl {
+		font-size: 40px;
+	}
+
+	.title-xl {
+		font-size: 50px;
+	}
+
+	.title-lg {
+		font-size: 45px;
+	}
+	.title-md{
+		font-size: 32px;
+	}
+
+	.title-sm {
+		font-size: 30px;
+	}
+
+	.button,
+	.featured-projects .owl-theme .owl-nav button,
+	.button-2 {
+		font-size: 14px;
+		padding: 8px 22px;
+		padding-top: 11px;
+	}
+
+	.offcanvas-contact {
+		margin-top: 100px;
+	}
+
+	.clients {
+		padding-bottom: 70px;
+	}
+
+	.testimonial__content {
+		margin-top: 40px;
+		margin-left: 20px;
+	}
+
+	.testimonials .title-xs {
+		margin-bottom: 33px;
+	}
+
+	.testimonials {
+		padding-bottom: 80px;
+	}
+
+	.roofing-services {
+		padding-top: 185px;
+		padding-bottom: 85px;
+	}
+
+	.featured-projects {
+		padding-top: 83px;
+	}
+
+	.featured-project__content> :last-child {
+		margin-top: 12px;
+		margin-left: -20px;
+	}
+	.project-details-area .featured-project__content> :last-child {
+		margin-left: 0;
+	}
+	.conversation-content .box {
+		margin-top: 20px;
+	}
+
+	.conversation {
+		padding-top: 95px;
+	}
+
+	.roofing-systems {
+		margin-top: 80px;
+	}
+
+	.roofing-systems .box {
+		margin-top: 20px;
+	}
+
+	.extensive-warranty {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	footer .container>div:first-child {
+		margin-bottom: 40px;
+	}
+
+	.contact-form {
+		margin-top: 35px;
+	}
+
+
+	/* nishan */
+	.career-testimonial .testitmonial__company-img::after {
+		left: -62px;
+	}
+	.career-testimonial .quote-icon {
+		top: -30px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.hub-content .box-2 .title-xl {
+		font-size: 40px;
+	}
+
+	body.page-hub .container>.title-xl {
+		font-size: 38px;
+	}
+
+	textarea::-webkit-input-placeholder,
+	input::-webkit-input-placeholder {
+		font-size: 30px !important;
+	}
+
+	textarea::-moz-placeholder,
+	input::-moz-placeholder {
+		font-size: 30px !important;
+	}
+
+	textarea:-ms-input-placeholder,
+	input:-ms-input-placeholder {
+		font-size: 30px !important;
+	}
+
+	textarea::-ms-input-placeholder,
+	input::-ms-input-placeholder {
+		font-size: 30px !important;
+	}
+
+	textarea::placeholder,
+	input::placeholder {
+		font-size: 30px !important;
+	}
+
+	.modal-contact .title-xl {
+		font-size: 40px;
+	}
+
+	.contact-form .nice-select>span {
+		font-size: 30px;
+	}
+
+	.offcanvas-nav>li>a {
+		font-size: 26px;
+	}
+
+	.title-xl {
+		font-size: 50px;
+	}
+
+	.title-lg {
+		font-size: 43px;
+	}
+
+	.title-sm {
+		font-size: 28px;
+	}
+
+	body {
+		font-size: 16px;
+	}
+
+	.primary-size {
+		font-size: 16px;
+	}
+
+	.secondary-size {
+		font-size: 15px;
+	}
+
+	.featured-project__img>img {
+		min-height: 300px;
+	}
+
+	.featured-projects {
+		padding-bottom: 75px;
+	}
+
+	.featured-project__content {
+		left: 20px;
+		bottom: 13px;
+		right: 5px;
+	}
+
+	.roofing-systems {
+		margin-top: 50px;
+	}
+
+	footer .helpful-links {
+		margin-top: 25px;
+	}
+
+	footer .copyright div {
+		margin-top: 5px;
+	}
+
+	.commercial-inspection .title-xxl {
+		font-size: 60px;
+	}
+	/* nishan */
+	.hero-section h1 {
+		margin-bottom: 20px;
+	}
+	.career-testimonial .testitmonial__company-img::after {
+		left: -30px;
+	}
+	.sings-area-wrap p {
+		font-size: 16px;
+		padding-right: 0;
+	}
+	.author-title::after {
+		right: -10px;
+	}
+	
+}
+
+@media (max-width: 479.98px) {
+	body.page-hub .container>.title-xl {
+		font-size: 30px;
+	}
+
+	.hub-content .box-2 .title-xl {
+		font-size: 30px;
+	}
+
+	.title-xl {
+		font-size: 47px;
+	}
+
+	.title-lg {
+		font-size: 42px;
+	}
+
+	.title-sm {
+		font-size: 25px;
+	}
+	.title-xs {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+	.modal-contact .title-xl {
+		font-size: 38px;
+	}
+
+	.welcome .title-xl {
+		font-size: 40px;
+	}
+
+	.logo {
+		width: 45%;
+	}
+
+	.testimonials .title-xs {
+		font-size: 22px;
+	}
+
+	.testimonial__content svg:first-child {
+		width: 35px;
+	}
+
+	.buttons .button,
+	.buttons .featured-projects .owl-theme .owl-nav button,
+	.featured-projects .owl-theme .owl-nav .buttons button {
+		font-size: 12px;
+		padding: 8px 17px;
+		padding-top: 9px;
+	}
+
+	.conversation .title-xl {
+		font-size: 45px;
+	}
+
+	.conversation img:last-child {
+		min-height: 200px;
+		-o-object-fit: cover;
+		object-fit: cover;
+	}
+
+	.roofing-services .box-2>*:last-child {
+		margin-right: 0px;
+		margin-left: 20px;
+	}
+
+	.commercial-inspection .title-xl {
+		font-size: 38px;
+	}
+
+	.commercial-inspection .box {
+		margin-bottom: 50px;
+	}
+
+	.commercial-inspection .chat-img-wrapper {
+		width: 100px;
+		height: 100px;
+	}
+
+	.commercial-inspection .chat-img-wrapper>svg {
+		width: 45px;
+		margin-top: 102px;
+	}
+	/* nishan */
+	
+
+	.testimonial__content .d-flex.align-items-center {
+		flex-flow: column-reverse;
+		text-align: center;
+	}
+	.career-testimonial .author-title::after {
+		top: -8px;
+		right: 0;
+		height: 1px;
+		width: 100%;
+	}
+	.testitmonial__company-img-2 {
+		margin-bottom: 20px;
+	}
+	.testitmonial__company-img{
+		margin-bottom: 5px;
+	}
+	.testitmonial__company-img::after{
+		bottom: 0px;
+		left: 0;
+		height: 1px;
+		width: 100%;
+	}
+	.career-testimonial .testimonial__content .testitmonial__company-img {
+		margin-bottom: 25px;
+	}
+	.career-testimonial .testimonial__content .secondary-size.basis-50 {
+		text-align: center;
+	}
+	.testitmonial__company-img {
+		border-left: 0;
+		border-bottom: 1px solid #25272B;
+		transform: translateX(0);
+		padding-left: 0px;
+	}
+	.testimonials  .testimonial__content .secondary-size {
+		padding-right: 0;
+	}
+	
+}
+
+@media (max-width: 383.98px) {
+	.title-xl {
+		font-size: 45px;
+	}
+
+	.title-lg {
+		font-size: 40px;
+	}
+
+	.welcome .title-xl {
+		font-size: 37px;
+	}
+
+	.custom-header__logo-toggle-btn {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	/* nsihan */
+	.featured-projects .owl-theme .owl-nav {
+		text-align: right;
+		margin-top: 35px;
+		margin-bottom: -84px;
+	}
+}
