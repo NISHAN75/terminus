@@ -949,8 +949,8 @@ body.page-hub .container > .title-xl {
 }
 /* Featured Projects */
 .featured-projects {
-	padding-top: 127px;
-	padding-bottom: 155px;
+    padding-top: 168px;
+    padding-bottom: 155px;
 }
 
 .featured-projects .box {
@@ -1556,8 +1556,9 @@ footer svg {
 	margin-left: 12px;
 	margin-right: 0;
 }
-.filter-btn button:nth-child(2)::before{
-	content: "";
+.filter-btn button:nth-child(2)::before {
+    content: "";
+    right: -9px;
 }
 .filter-btn .filter-main-btn {
 	padding: 12px 25px;
@@ -1576,7 +1577,6 @@ footer svg {
 }
 .project-content .button-2 {
     color: #25272b;
-    line-height: 1.5;
 }
 .project-content .button-2 svg {
     margin-left: 8px;
@@ -1617,6 +1617,10 @@ footer svg {
 }
 .project-details-caption  .caption-info p {
     font-size: 16px;
+}
+.more-btn {
+    color: #2E90FA;
+    margin-left: 5px;
 }
 .projects-table table {
 	width: 100%;
@@ -1721,9 +1725,12 @@ footer svg {
 .accordion-header:not(.collapsed) svg {
 	transform: rotate(-180deg);
 }
-.accordion-header .according-heading {
+.according-heading {
 	font-size: 20px;
 	line-height: 1.4;
+}
+.accordion-header svg {
+    margin-right: 10px;
 }
 /* ===============================================
  --------  Pre-Qualifications section area end-------
@@ -1762,7 +1769,6 @@ footer svg {
 }
 .start img {
 	height: 20px;
-	width: 18px;
 	margin-right: 4px;
 }
 .customer-testimonial .owl-item {
@@ -1776,12 +1782,14 @@ footer svg {
 	margin: 0;
 }
 .author-inner-info p {
-	font-weight: 400;
+    font-weight: 400;
+    margin: 0;
 }
 .start-div span {
-	display: block;
-	margin-top: 5px;
-	margin-left: 16px;
+    display: block;
+    margin-top: 3px;
+    margin-left: 16px;
+    font-size: 16px;
 }
 .author-wrap blockquote {
 	position: relative;
@@ -1825,7 +1833,8 @@ footer svg {
 	color: transparent;
 }
 .residential-info p {
-	font-size: 16px;
+    font-size: 16px;
+    margin: 0;
 }
 .residential-area .row:last-child {
 	--bs-gutter-x: 48px;
@@ -1864,6 +1873,9 @@ footer svg {
 }
 .property-managers .box-tpb {
 	padding-left: 32px;
+}
+.protecting-life-area .box-tpb p{
+	margin-bottom: 32px;
 }
 .accuracy-area .box-tpb {
     margin-bottom: 40px;
@@ -1907,7 +1919,7 @@ footer svg {
 /* ===============================================
  -------- roof Types section area start-------
 ================================================== */
-.section-card-wrap-2 .box-tpb p , .section-card-wrap .box-tpb p {
+.section-card-wrap-2 .box-tpb p , .section-card-wrap .box-tpb p , .protecting-life-area p {
 	margin: 0;
 }
 .sings-area .section-title {
