@@ -72,6 +72,8 @@ h5,
 h6 {
 	font-weight: 700;
 	line-height: 1.2;
+	font-family: "aktiv-grotesk-extended";
+	color: #25272b;
 }
 section [class*="title-"] {
 	margin-bottom: 0;
@@ -235,7 +237,6 @@ section [class*="title-"] {
 .buttons .featured-projects .owl-theme .owl-nav button,
 .featured-projects .owl-theme .owl-nav .buttons button {
 	font-size: 14px;
-
 }
 
 .buttons .button:not(:last-child),
@@ -391,7 +392,7 @@ section [class*="title-"] {
 	transform: none;
 }
 .box-2:hover .button-2:not(.no-rotate) svg,
-.project-content .button-2:hover svg {
+.project-content .button-2:hover svg , .glossary-area .projects-table .button-2:hover svg {
 	transform: rotate(90deg);
 }
 .box-2:hover > img:first-child {
@@ -533,7 +534,10 @@ section [class*="title-"] {
 	margin-bottom: 12px;
 }
 
-.modal-body ul , .pagenation-area ul , .section-list ul , .section-list-2  ul{
+.modal-body ul,
+.pagenation-area ul,
+.section-list ul,
+.section-list-2 ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -922,7 +926,7 @@ body.page-hub .container > .title-xl {
 	position: relative;
 }
 .testimonials .flex-row-reverse .testimonial__content {
-    margin-left: 35px;
+	margin-left: 35px;
 }
 /* 
 .testitmonial__company-img::after {
@@ -936,21 +940,21 @@ body.page-hub .container > .title-xl {
 .testitmonial__company-img::after {
 	left: -22px;
 } */
-.primary-bg .testitmonial__company-img{
+.primary-bg .testitmonial__company-img {
 	border-color: #fff;
-} 
-.testitmonial__company-img {
-    border-left: 1px solid #25272B;
-    transform: translateX(-20px);
-    padding-left: 20px;
 }
-.testimonials  .testimonial__content .secondary-size {
-    padding-right: 20px;
+.testitmonial__company-img {
+	border-left: 1px solid #25272b;
+	transform: translateX(-20px);
+	padding-left: 20px;
+}
+.testimonials .testimonial__content .secondary-size {
+	padding-right: 20px;
 }
 /* Featured Projects */
 .featured-projects {
-    padding-top: 168px;
-    padding-bottom: 155px;
+	padding-top: 168px;
+	padding-bottom: 155px;
 }
 
 .featured-projects .box {
@@ -1150,11 +1154,6 @@ body.page-hub .container > .title-xl {
 .roofing-services {
 	padding-top: 320px;
 	padding-bottom: 124px;
-}
-
-.roofing-services .vertical-bars span,
-.primary-bg .vertical-bars span {
-	background: #39393b;
 }
 
 .hub-content .box-2 .box-content {
@@ -1365,7 +1364,10 @@ footer svg {
 
 .vertical-bars span {
 	width: 2px;
-	background: #e9e1db;
+	background: rgba(173, 159, 148, 0.15);
+}
+.next-page-area .vertical-bars span {
+	background: rgba(173, 159, 148, 0.15);
 }
 
 /* Nishan */
@@ -1402,8 +1404,8 @@ footer svg {
 	margin-bottom: 24px;
 }
 .hero-section hr {
-    margin-top: 24px;
-    margin-bottom: 0;
+	margin-top: 24px;
+	margin-bottom: 0;
 }
 /* ===============================================
  -------- about section area end-------
@@ -1415,7 +1417,8 @@ footer svg {
 .excellence-area.section-padding {
 	padding: 104px 0 151px;
 }
-.opacity-content p , .opacity-content li {
+.opacity-content p,
+.opacity-content li {
 	opacity: 0.8;
 }
 /* ===============================================
@@ -1426,8 +1429,8 @@ footer svg {
  -------- serving-logo section area start-------
 ================================================== */
 .clients.serving-logo {
-    padding-top: 72px;
-    padding-bottom: 75px;
+	padding-top: 72px;
+	padding-bottom: 75px;
 }
 .client-logo {
 	height: 125px;
@@ -1526,39 +1529,39 @@ footer svg {
 .filter-btn {
 	margin-bottom: 43px;
 }
-.filter-btn button:first-child:before{
-   display: none;
+.filter-btn button:first-child:before {
+	display: none;
 }
 
 .filter-btn button {
-    position: relative;
-    z-index: 1;
+	position: relative;
+	z-index: 1;
 }
 .filter-btn button::before {
-    content: "-";
-    position: absolute;
-    right: -5.5px;
-    top: -5.5px;
-    height: 11px;
-    width: 11px;
-    background: #25272B;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    font-size: 14px;
+	content: "-";
+	position: absolute;
+	right: -5.5px;
+	top: -5.5px;
+	height: 11px;
+	width: 11px;
+	background: #25272b;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	font-size: 14px;
 }
-.filter-btn button::second-child{
+.filter-btn button::second-child {
 	margin: 0;
 }
-.filter-btn button:nth-child(2){
+.filter-btn button:nth-child(2) {
 	margin-left: 12px;
 	margin-right: 0;
 }
 .filter-btn button:nth-child(2)::before {
-    content: "";
-    right: -9px;
+	content: "";
+	right: -9px;
 }
 .filter-btn .filter-main-btn {
 	padding: 12px 25px;
@@ -1569,17 +1572,17 @@ footer svg {
 	margin-right: 12px;
 }
 .sub-btn {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.5;
-    padding: 4px 8px;
-    margin-right: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.5;
+	padding: 4px 8px;
+	margin-right: 5px;
 }
-.project-content .button-2 {
-    color: #25272b;
+.project-content .button-2 , .glossary-area .button-2 {
+	color: #25272b;
 }
 .project-content .button-2 svg {
-    margin-left: 8px;
+	margin-left: 8px;
 }
 
 .project-details-area .featured-project__content {
@@ -1615,19 +1618,19 @@ footer svg {
 .project-details-caption .caption-info {
 	margin-bottom: 40px;
 }
-.project-details-caption  .caption-info p {
-    font-size: 16px;
+.project-details-caption .caption-info p {
+	font-size: 16px;
 }
 .more-btn {
-    color: #2E90FA;
-    margin-left: 5px;
+	color: #2e90fa;
+	margin-left: 5px;
 }
 .projects-table table {
 	width: 100%;
 }
 .projects-table tr {
-    border-bottom: 1px solid #25272b;
-    padding: 24px 0;
+	border-bottom: 1px solid #25272b;
+	padding: 24px 0;
 }
 .projects-table tr:first-child {
 	border-top: 1px solid #25272b;
@@ -1640,13 +1643,15 @@ footer svg {
  --------  Team section area end-------
 ================================================== */
 .team-area.section-padding {
-    padding-bottom: 64px;
+	padding-bottom: 64px;
 }
-.team-content h5 , .glossary-area .projects-table .table-heading {
+.team-content h5,
+.glossary-area .projects-table .table-heading {
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0;
+	font-family: "aktiv-grotesk-extended";
 }
 .team-content a {
 	color: #000;
@@ -1695,10 +1700,9 @@ footer svg {
 /* ===============================================
  --------  Pre-Qualifications section area end-------
 ================================================== */
-
 .accordion {
 	--bs-accordion-bg: transparent;
-	--bs-accordion-color: #25272B;
+	--bs-accordion-color: #25272b;
 	margin-top: 95px;
 }
 .accordion-item:first-of-type {
@@ -1730,7 +1734,7 @@ footer svg {
 	line-height: 1.4;
 }
 .accordion-header svg {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 /* ===============================================
  --------  Pre-Qualifications section area end-------
@@ -1755,7 +1759,6 @@ footer svg {
 	color: #25272b;
 	border-color: #25272b;
 }
-
 
 /* customer-testimonial section area start */
 
@@ -1782,14 +1785,14 @@ footer svg {
 	margin: 0;
 }
 .author-inner-info p {
-    font-weight: 400;
-    margin: 0;
+	font-weight: 400;
+	margin: 0;
 }
 .start-div span {
-    display: block;
-    margin-top: 3px;
-    margin-left: 16px;
-    font-size: 16px;
+	display: block;
+	margin-top: 3px;
+	margin-left: 16px;
+	font-size: 16px;
 }
 .author-wrap blockquote {
 	position: relative;
@@ -1833,8 +1836,8 @@ footer svg {
 	color: transparent;
 }
 .residential-info p {
-    font-size: 16px;
-    margin: 0;
+	font-size: 16px;
+	margin: 0;
 }
 .residential-area .row:last-child {
 	--bs-gutter-x: 48px;
@@ -1868,20 +1871,21 @@ footer svg {
 /* ===============================================
  --------  protecting-life section area start-------
 ================================================== */
-.protecting-life-area , .section-card-wrap-2 {
+.protecting-life-area,
+.section-card-wrap-2 {
 	padding-top: 80px;
 }
 .property-managers .box-tpb {
 	padding-left: 32px;
 }
-.protecting-life-area .box-tpb p{
+.protecting-life-area .box-tpb p {
 	margin-bottom: 32px;
 }
 .accuracy-area .box-tpb {
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 .accuracy-area .box-tpb:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 .accuracy-area .box-tpb p {
 	font-size: 16px;
@@ -1899,8 +1903,8 @@ footer svg {
 	margin-top: 16px;
 }
 .section-type-title {
-    padding-top: 59px;
-    padding-bottom: 105px;
+	padding-top: 59px;
+	padding-bottom: 105px;
 }
 /* ===============================================
  --------  roof Types section area end-------
@@ -1919,7 +1923,9 @@ footer svg {
 /* ===============================================
  -------- roof Types section area start-------
 ================================================== */
-.section-card-wrap-2 .box-tpb p , .section-card-wrap .box-tpb p , .protecting-life-area p {
+.section-card-wrap-2 .box-tpb p,
+.section-card-wrap .box-tpb p,
+.protecting-life-area p {
 	margin: 0;
 }
 .sings-area .section-title {
@@ -1937,7 +1943,7 @@ footer svg {
  -------- roofing 101 section area start-------
 ================================================== */
 
-.section-type-title-black {
+.section-type-black {
 	padding-top: 62px;
 	padding-bottom: 72px;
 }
@@ -1976,63 +1982,65 @@ footer svg {
 	transform: translateY(-50%);
 }
 .glossary-area .section-title {
-    padding-right: 61px;
+	padding-right: 61px;
 }
 .glossary-area .section-title p {
-    margin: 0;
+	margin: 0;
 }
-.table-search-bar:focus{
+.table-search-bar:focus {
 	border: none;
 	outline: none;
 }
 .table-search-bar {
-    color: #25272B;
-    opacity: 0.5;
+	color: #25272b;
+	opacity: 0.5;
 	border: 0;
 }
 .search-area::after {
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 1px;
-    width: 100%;
-    background: #25272B;
-    content: "";
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	height: 1px;
+	width: 100%;
+	background: #25272b;
+	content: "";
 }
-.glossary-area  .projects-table tr {
-    border-bottom: 1px solid #25272b;
-    padding: 32px 0 59px;
+.glossary-area .projects-table tr {
+	border-bottom: 1px solid #25272b;
+	padding: 32px 0 59px;
 }
-.page-link{
+.page-link {
 	color: #ad9f94;
 }
-.page-link.active{
-	color: #25272B;
+.page-link.active {
+	color: #25272b;
 }
 .arrows {
-    margin-left: 16px;
+	margin-left: 16px;
 }
 .prev-arrow {
-    margin-right: 26px;
+	margin-right: 26px;
 }
 .arrows::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 0;
-    height: 24px;
-    width: 1px;
-    background: #AD9F94;
-    transform: translateX(-50%);
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height: 24px;
+	width: 1px;
+	background: #ad9f94;
+	transform: translateX(-50%);
 }
-.arrows .active{
-   color: #AD9F94;
+.arrows .active {
+	color: #ad9f94;
 }
-.arrows .prev-arrow, .arrows .next-arrow{
+.arrows .prev-arrow,
+.arrows .next-arrow {
 	transition: 0.45s linear;
 }
-.arrows .prev-arrow:hover , .arrows .next-arrow:hover{
-	color: #AD9F94;
+.arrows .prev-arrow:hover,
+.arrows .next-arrow:hover {
+	color: #ad9f94;
 }
 /* ===============================================
  -------- roofing 101 section area end-------
@@ -2041,14 +2049,55 @@ footer svg {
  -------- roofing 101 section area start-------
 ================================================== */
 .our-reach-section-area .section-title {
-    max-width: 656px;
+	max-width: 656px;
 }
 .our-reach-section-area .section-list-2 {
 	margin-bottom: 42px;
 }
 .section-list-2 li {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 /* ===============================================
  -------- roofing 101 section area end-------
+================================================== */
+
+/* ===============================================
+ -------- next page section area end-------
+================================================== */
+.next-page-area {
+	background: #ad9f94;
+	background-blend-mode: multiply;
+}
+.next-page-area::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: calc(50% + 329px);
+	opacity: 0.5;
+	background: linear-gradient(90deg, rgba(198, 191, 185, 0) 0%, rgba(61, 52, 45, 0.37) 100%);
+	background-blend-mode: multiply;
+}
+.next-page-wrap {
+	width: 25%;
+	float: right;
+	padding: 36px 22px;
+}
+.next-page-wrap::before {
+	position: absolute;
+	left: -49px;
+	top: 0;
+	height: 100%;
+	width: 49px;
+	opacity: 0.25;
+	background: linear-gradient(90deg, rgba(143, 128, 115, 0) 0%, rgba(61, 52, 45, 0.37) 100%);
+	background-blend-mode: multiply;
+	content: "";
+}
+.next-btn:hover {
+	opacity: 0.8;
+}
+/* ===============================================
+ -------- next page section area end-------
 ================================================== */
